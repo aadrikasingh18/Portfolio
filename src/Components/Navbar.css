@@ -1,0 +1,36 @@
+@import "../vars.css";
+
+.styleNavbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 61px;
+    z-index: 2;
+    margin: 0 10%;
+}
+
+.styleTitleNav {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.styleMenuNav {
+    display: flex;
+}
+
+.styleMenuItemsNav {
+    display: flex;
+    gap: 47px;
+    list-style: none;
+}
+
+.styleMenuItemsNav a{
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
