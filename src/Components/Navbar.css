@@ -27,10 +27,13 @@
     list-style: none;
 }
 
-.styleMenuItemsNav a{
+.styleMenuItemsNav a {
     font-size: 25px;
     font-weight: 500;
     text-decoration: none;
     color: var(--color-text);
 }
 
+.navbar-brand {
+    padding-right: 30px;
+}
