@@ -13,16 +13,16 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse styleMenuNav" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 styleMenuItemsNav">
                             <li className="nav-item">
-                                <Link to={'/About'} className="nav-link">ABOUT</Link>
+                                <Link to={'/Experience'} className="nav-link">ABOUT</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to={'/About'} className="nav-link">EXPERIENCE</Link>
+                                <Link to={'/Experience'} className="nav-link">EXPERIENCE</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to={'/About'} className="nav-link">PROJECT</Link>
+                                <Link to={'/Experience'} className="nav-link">PROJECT</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to={'/About'} className="nav-link">CONTACT</Link>
+                                <Link to={'/Experience'} className="nav-link">CONTACT</Link>
                             </li>
                         </ul>
                     </div>
@@ -50,7 +50,7 @@ export default function Navbar() {
 //                     />
 //                     <ul className="styleMenuItemsNav">
 //                         <li>
-//                             <a href="#about">ABOUT</a>
+//                             <a href="#experience">ABOUT</a>
 //                         </li>
 //                         <li>
 //                             <a href="#experience">EXPERIENCE</a>

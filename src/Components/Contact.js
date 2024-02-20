@@ -5,11 +5,7 @@ const Contact = () => {
   return (
     <>
       <div>
-        <div className="contact">
-          CONTACT
-        </div><div className="contact">
-          CONTACT
-        </div>
+        CONTACT
       </div>
     </>
   )
