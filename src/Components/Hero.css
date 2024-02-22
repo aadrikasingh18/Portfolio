@@ -5,20 +5,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
     z-index: 1;
     padding-top: 60px;
     /* border: 4px solid red; */
 }
 
 .hero-content-left {
-    width: 60%;
+    width: 55%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 30px; */
     /* border: 3px solid green; */
-    margin-left: 30px;
 }
 
 .hero-content-right {
-    width: 40%;
+    width: 45%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -28,11 +33,12 @@
 .hero-title {
     font-size: 60px;
     font-weight: 800;
-    margin-bottom: 33px;
     font-family: var(--font-roboto);
     color: var(--color-text);
-    display: flex;
-    justify-content: center;
+    /* margin-bottom: 33px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* border: 2px solid cyan; */
 }
 
 .hero-description {
@@ -40,21 +46,34 @@
     font-size: 30px;
     font-weight: 400;
     color: var(--color-text);
-    text-align: left;
-    margin-bottom: 52px;
-    letter-spacing: 0em;
+    text-align: justify;
+    margin-top: 30px;
+    padding: 30px;
     line-height: 35px;
-    padding-left: 120px;
-    padding-top: 25px;
+    letter-spacing: -1.75px;
+    margin-left: 70px;
+    /* text-align: left; */
+    /* text-align: start; */
+    /* margin-bottom: 52px; */
+    /* padding-left: 120px; */
+    /* padding-top: 25px; */
     /* border: 3px solid white; */
 }
 
+.hero-description-end{
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -45px;
+    /* border: 3px solid rgb(135, 98, 98); */
+}
+
 .hero-btn {
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
-    padding-top: 15px;
     padding-bottom: 50px;
+    /* border: 2px solid red; */
+    /* padding-top: 15px; */
 }
 
 .hero-contactBtn {
@@ -64,12 +83,16 @@
     border-radius: 100px;
     font-size: 25px;
     font-weight: 600;
-    padding: 15px 25px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 12px 18px;
+    /* box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25); */
+}
+
+.hero-contactBtn:hover {
+    background-color: #7a93f6;
 }
 
 .hero-img {
-    width: 60%;
+    width: 65%;
     z-index: 1;
     animation-name: floating;
     animation-duration: 5s;

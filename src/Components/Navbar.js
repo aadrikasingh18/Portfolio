@@ -14,16 +14,18 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse styleMenuNav" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 styleMenuItemsNav">
                             <li className="nav-item">
-                                <Link to={'/Experience'} className="nav-link">ABOUT</Link>
+                                <Link to={'/about'} className="nav-link">ABOUT</Link>
+                                {/* <a href="/about" className="nav-link">ABOUT</a> */}
                             </li>
                             <li className="nav-item">
-                                <Link to={'/Experience'} className="nav-link">EXPERIENCE</Link>
+                                <Link to={'/experience'} className="nav-link">EXPERIENCE</Link>
+                                {/* <a href="/experience" className="nav-link">EXPERIENCE</a> */}
                             </li>
                             <li className="nav-item">
-                                <Link to={'/Experience'} className="nav-link">PROJECT</Link>
+                                <Link to={'/project'} className="nav-link">PROJECT</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to={'/Experience'} className="nav-link">CONTACT</Link>
+                                <Link to={'/contact'} className="nav-link">CONTACT</Link>
                             </li>
                         </ul>
                     </div>
