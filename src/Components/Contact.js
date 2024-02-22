@@ -13,19 +13,19 @@ const Contact = () => {
         <div className="contact-right">
           <div className="contact-icons">
 
-            <a href="https://www.linkedin.com/in/aadrika-singh-035219205/" target="_blank" className="contact-btn">
+            <a href="https://www.linkedin.com/in/aadrika-singh-035219205/" target="_blank" rel="noreferrer" className="contact-btn">
               <i className="fab fa-linkedin"></i>
             </a>
 
-            <a href="https://github.com/aadrikasingh18" target="_blank" className="contact-btn">
+            <a href="https://github.com/aadrikasingh18" target="_blank" rel="noreferrer" className="contact-btn">
               <i className="fab fa-github"></i>
             </a>
 
-            <a href="https://wa.me/6388267640" target="_blank" className="contact-btn">
+            <a href="https://wa.me/6388267640" target="_blank" rel="noreferrer" className="contact-btn">
               <i className="fab fa-brands fa-whatsapp"></i>
             </a>
 
-            <a href="https://twitter.com/aadrika_singh__" target="_blank" className="contact-btn">
+            <a href="https://twitter.com/aadrika_singh__" target="_blank" rel="noreferrer" className="contact-btn">
               <i className="fab fa-twitter"></i>
             </a>
 
