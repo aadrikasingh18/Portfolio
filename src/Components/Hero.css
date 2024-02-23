@@ -7,7 +7,8 @@
     justify-content: space-between;
     flex-direction: row;
     z-index: 1;
-    padding-top: 60px;
+    /* padding-top: 60px; */
+    padding-top: 3.75rem;
     /* border: 4px solid red; */
 }
 
@@ -31,28 +32,29 @@
 
 .hero-title {
     /* font-size: 60px; */
-    font-size: 3.75em;
+    font-size: 3.75rem;
     font-weight: 800;
     font-family: var(--font-roboto);
     color: var(--color-text);
     /* margin-bottom: 33px; */
-    /* display: flex; */
-    /* justify-content: center; */
     /* border: 2px solid cyan; */
 }
 
 .hero-description {
     font-family: var(--font-roboto);
     /* font-size: 30px; */
-    font-size: 1.875em;
+    font-size: 1.875rem;
     font-weight: 400;
     color: var(--color-text);
     text-align: justify;
-    margin-top: 30px;
-    padding: 30px;
+    /* margin-top: 30px; */
+    margin-top: 1.875rem;
+    /* padding: 30px; */
+    padding: 1.875rem;
     line-height: 35px;
     letter-spacing: -1.75px;
-    margin-left: 70px;
+    /* margin-left: 70px; */
+    margin-left: 4.3rem;
 }
 
 .hero-description-end{
@@ -60,7 +62,8 @@
     /* font-size: 30px; */
     font-size: 1.875em;
     font-weight: 400;
-    margin-top: -45px;
+    /* margin-top: -45px; */
+    margin-top: -2.8rem;
     /* border: 3px solid rgb(135, 98, 98); */
 }
 
@@ -69,7 +72,6 @@
     justify-content: center;
     padding-bottom: 50px;
     /* border: 2px solid red; */
-    /* padding-top: 15px; */
 }
 
 .hero-contactBtn {
@@ -80,8 +82,7 @@
     /* font-size: 25px; */
     font-size: 1.5625em;
     font-weight: 600;
-    padding: 12px 18px;
-    /* box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25); */
+    padding: 0.75rem 1.125rem;
 }
 
 .hero-contactBtn:hover {
@@ -117,10 +118,13 @@
     border-radius: 764px;
     z-index: 0;
     background: rgba(25, 55, 109, 0.7);
-    width: 400px;
-    height: 500px;
-    top: -265px;
-    left: -255px;
+    width: 25rem;
+    height: 31.25rem;
+    top: -17rem;
+    left: -16rem;
+    /* width: 400px; */
+    /* top: -265px; */
+    /* left: -255px; */
 }
 
 .hero-bottomBlur {
@@ -129,9 +133,12 @@
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
     z-index: 0;
-    width: 450px;
-    height: 450px;
-    top: -450px;
-    left: 950px;
-    background: rgba(25, 55, 109, 0.8);
+    width: 28rem;
+    height: 28rem;
+    top: 28rem;
+    left: 60rem;
+    /* width: 450px; */
+    /* height: 450px; */
+    /* top: -450px; */
+    /* left: 950px; */
 }
