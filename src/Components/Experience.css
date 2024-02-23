@@ -9,7 +9,8 @@
     box-sizing: border-box;
     width: 70rem;
     height: 40rem;
-    margin-left: 9rem;
+    /* margin-left: 9rem; */
+    margin-left: 4rem;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color: rgba(12, 12, 12, 0.6);
@@ -99,7 +100,7 @@
 
 .exp-date {
     /* margin-top: -18px; */
-    margin-top: -1.125;
+    margin-top: -1.125rem;
     color: var(--color-primary);
 }
 
