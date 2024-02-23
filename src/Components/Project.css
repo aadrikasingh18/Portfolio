@@ -1,15 +1,18 @@
 @import "../vars.css";
 
 .project {
+    /* width: 1170px; */
+    /* height: 590px; */
+    /* margin-left: 115px; */
+    /* padding-top: 25px; */
     box-sizing: border-box;
-    width: 1170px;
-    height: 590px;
-    margin-left: 115px;
-    /* border-radius: 15px; */
+    width: 73rem;
+    height: 36rem;
+    margin-left: 7rem;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: rgba(12, 12, 12, 0.6);
-    padding-top: 20px;
+    padding-top: 1.5rem;
     color: var(--color-text);
     /* border: 2px solid red; */
 }
