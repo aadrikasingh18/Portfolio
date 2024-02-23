@@ -5,23 +5,25 @@
     /* height: 590px; */
     /* margin-left: 115px; */
     /* padding-top: 25px; */
-    box-sizing: border-box;
     /* width: 73rem; */
-    width: 68rem;
-    height: 36rem;
-    margin-left: 7rem;
+    box-sizing: border-box;
+    width: 70rem;
+    height: 40rem;
+    margin-left: 9rem;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color: rgba(12, 12, 12, 0.6);
     padding-top: 1.5rem;
     color: var(--color-text);
     /* border-radius: 15px; */
+    /* border: 2px solid green; */
 }
 
 .experience-heading {
     box-sizing: border-box;
     font-family: Outfit;
-    font-size: 35px;
+    /* font-size: 35px; */
+    font-size: 2.25rem;
     font-weight: 700;
     line-height: 44px;
     letter-spacing: 0.08em;
@@ -46,7 +48,8 @@
 .experience-img {
     width: 85%;
     z-index: 1;
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    margin-left: 3rem;
     box-sizing: border-box;
 }
 
@@ -54,7 +57,8 @@
     box-sizing: border-box;
     width: 55%;
     height: 100%;
-    margin-top: -25px;
+    /* margin-top: -25px; */
+    margin-top: 0rem;
 }
 
 .experience-list {
@@ -69,9 +73,12 @@
     border-radius: 15px;
     box-sizing: border-box;
     cursor: pointer;
-    margin-top: 10px;
-    margin-right: 25px;
-    padding-left: 15px;
+    /* margin-top: 10px; */
+    /* margin-right: 25px; */
+    /* padding-left: 15px; */
+    margin-top: 0.6rem;
+    margin-right: 1.5rem;
+    padding-left: 0.9rem;
     background-image: linear-gradient(270deg, rgba(165, 215, 232, 0.42) 0%,
             rgba(255, 255, 255, 0) 100%);
     background-size: 100% 100%;
@@ -84,18 +91,21 @@
 
 .exp-role {
     font-family: Outfit;
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: 1.3rem;
     font-weight: 450;
     letter-spacing: 0.05em;
 }
 
 .exp-date {
-    margin-top: -18px;
+    /* margin-top: -18px; */
+    margin-top: -1.125;
     color: var(--color-primary);
 }
 
 .exp-des {
-    margin-top: -16px;
+    /* margin-top: -16px; */
+    margin-top: -1rem;
     line-height: 1.3;
     color: rgb(225, 225, 225);
 }
