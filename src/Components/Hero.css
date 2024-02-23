@@ -43,12 +43,13 @@
 .hero-description {
     font-family: var(--font-roboto);
     /* font-size: 30px; */
+    /* font-size: 1.875rem; */
     font-size: 1.875rem;
     font-weight: 400;
     color: var(--color-text);
     text-align: justify;
     /* margin-top: 30px; */
-    margin-top: 1.875rem;
+    margin-top: 0.875rem;
     /* padding: 30px; */
     padding: 1.875rem;
     line-height: 35px;
