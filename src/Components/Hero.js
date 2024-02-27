@@ -8,6 +8,7 @@ import Col from 'react-bootstrap/Col';
 const Hero = () => {
   return (
     <>
+    {/* REACT BOOTSTRAP DOCS */}
       <Container className='hero-container'>
         <Row>
           {/* LEFT DIV*/}
