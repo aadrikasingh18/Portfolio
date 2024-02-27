@@ -4,61 +4,51 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    z-index: 1;
+    z-index: 1; /* blur property ke liye add kiya hai*/
     padding-top: 1.75rem;
-    /* padding-top: 60px; */
-    border: 4px solid red;
+    /* border: 1px solid red; */
 }
 
 .hero-content-left {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* border: 3px solid green; */
+    /* border: 1px solid green; */
 }
 
 .hero-title {
-    /* font-size: 60px; */
     font-size: 3.75rem;
     font-weight: 800;
     font-family: var(--font-roboto);
     color: var(--color-text);
-    /* border: 2px solid cyan; */
+    /* border: 1px solid cyan; */
 }
 
 .hero-description {
     font-family: var(--font-roboto);
-    /* font-size: 30px; */
-    /* font-size: 1.875rem; */
     font-size: 1.875rem;
     font-weight: 400;
     color: var(--color-text);
     text-align: justify;
-    /* margin-top: 0.875rem; */
-    /* padding: 30px; */
     padding: 1.875rem;
     line-height: 35px;
     letter-spacing: -1.75px;
-    /* margin-left: 70px; */
-    /* margin-left: 4.3rem; */
-    /* border: 2px solid slateblue; */
+    /* border: 1px solid slateblue; */
 }
 
-.hero-description-end{
+.hero-description-end {
     color: var(--color-text);
-    /* font-size: 30px; */
     font-size: 1.875em;
     font-weight: 400;
-    /* margin-top: -45px; */
-    margin-top: -3.2rem;
-    /* border: 3px solid rgb(135, 98, 98); */
+    margin-top: -1.2rem;
+    /* border: 1px solid rgb(135, 98, 98); */
 }
 
 .hero-btn {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
-    /* border: 2px solid red; */
+    padding-bottom: 3.125rem;
+    /* border: 1px solid red; */
 }
 
 .hero-contactBtn {
@@ -66,7 +56,6 @@
     background-color: var(--color-primary);
     color: var(--color-text);
     border-radius: 100px;
-    /* font-size: 25px; */
     font-size: 1.5rem;
     font-weight: 600;
     padding: 0.5rem 1rem;
@@ -79,11 +68,11 @@
 .hero-content-right {
     display: flex;
     justify-content: center;
-    /* border: 4px solid violet; */
+    /* border: 1px solid violet; */
 }
 
 .hero-img {
-    width: 65%;
+    width: 95%;
     z-index: 1;
     animation-name: floating;
     animation-duration: 5s;
@@ -105,7 +94,7 @@
     }
 }
 
-.hero-topBlur {
+/* .hero-topBlur {
     position: absolute;
     filter: blur(100px);
     border-radius: 764px;
@@ -115,10 +104,7 @@
     height: 31.25rem;
     top: -17rem;
     left: -16rem;
-    /* width: 400px; */
-    /* top: -265px; */
-    /* left: -255px; */
-}
+} */
 
 /* .hero-bottomBlur {
     position: absolute;
@@ -131,8 +117,12 @@
     top: 28rem;
     left: 60rem;
 } */
-/* BOTTOM BLUR */
-/* width: 450px; */
-/* height: 450px; */
-/* top: -450px; */
-/* left: 950px; */
+
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 992px) {
+    .hero-img {
+        width: 70%;
+    }
+}
