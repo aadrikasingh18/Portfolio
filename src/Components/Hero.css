@@ -72,7 +72,7 @@
 }
 
 .hero-img {
-    width: 95%;
+    width: 105%;
     z-index: 1;
     animation-name: floating;
     animation-duration: 5s;
