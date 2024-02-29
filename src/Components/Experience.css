@@ -9,7 +9,7 @@
     background-color: rgba(12, 12, 12, 0.6);
     padding-top: 1.5rem;
     color: var(--color-text);
-    /* border: 4px solid red; */
+    /* border: 8px solid cyan; */
 }
 
 .experience-heading {
@@ -95,6 +95,10 @@
 /* RESPONSIVENESS */
 
 @media screen and (max-width: 992px) {
+
+    .experience {
+        height: 60rem;
+    }
     .experience-heading {
         display: flex;
         justify-content: center;
