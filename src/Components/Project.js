@@ -13,8 +13,8 @@ const Project = () => {
           PROJECTS
         </h2>
         <Row>
-          {/* RIGHT DIV */}
-          <Col lg={{ span: 5, order: 1 }} sm={{ span: 12, order: 1 }} className='project-box-right'>
+          {/* RIGHT DIV ACC TO EXP*/}
+          <Col lg={{ span: 7, order: 1 }} sm={{ span: 12, order: 2 }} className='project-box-right'>
             <ul className='project-list'>
               <li>
                 <div className="pro">
@@ -57,9 +57,8 @@ const Project = () => {
               </li>
             </ul>
           </Col>
-
-          {/* LEFT DIV */}
-          <Col lg={{ span: 7, order: 2 }} sm={{ span: 12, order: 2 }} className='project-box-left'>
+          {/* LEFT DIV ACC TO EXP*/}
+          <Col lg={{ span: 5, order: 2 }} sm={{ span: 12, order: 1 }} className='project-box-left'>
             <img src={projectPic} alt={"pic"} className='project-img' />
           </Col>
         </Row>

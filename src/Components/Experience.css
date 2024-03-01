@@ -3,13 +3,13 @@
 .experience {
     box-sizing: border-box;
     width: 70rem;
-    height: 40rem;
+    height: 38rem;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color: rgba(12, 12, 12, 0.6);
     padding-top: 1.5rem;
     color: var(--color-text);
-    /* border: 8px solid cyan; */
+    /* border: 1px solid cyan; */
 }
 
 .experience-heading {
@@ -20,26 +20,20 @@
     line-height: 44px;
     letter-spacing: 0.08em;
     text-align: left;
+    margin-left: 2.5rem;
     /* border: 1px solid rgb(159, 167, 159); */
 }
-
-/* .experience-container {
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 8px solid red;
-} */
 
 .experience-box-left {
     /* border: 8px solid cyan; */
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .experience-img {
-    width: 65%;
-    height: 90%;
+    width: 20rem;
+    height: 20rem;
     z-index: 1;
     /* border: 8px solid rgba(0, 255, 255, 0.436); */
 }
@@ -97,11 +91,13 @@
 @media screen and (max-width: 992px) {
 
     .experience {
-        height: 60rem;
+        height: 57rem;
     }
+
     .experience-heading {
         display: flex;
         justify-content: center;
+        margin-left: 0rem;
     }
 
     .experience-img {
