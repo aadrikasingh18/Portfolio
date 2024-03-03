@@ -4,8 +4,8 @@
     box-sizing: border-box;
     width: 70rem;
     height: 38rem;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
     background-color: rgba(12, 12, 12, 0.6);
     padding-top: 1.5rem;
     color: var(--color-text);
@@ -17,7 +17,7 @@
     font-family: Outfit;
     font-size: 2.25rem;
     font-weight: 700;
-    line-height: 44px;
+    line-height: 2.75rem;
     letter-spacing: 0.08em;
     text-align: left;
     margin-left: 2.5rem;
@@ -51,8 +51,8 @@
 }
 
 .exp {
-    border: 2px solid rgb(89, 90, 88);
-    border-radius: 15px;
+    border: 0.125rem solid rgb(89, 90, 88);
+    border-radius: 0.9rem;
     box-sizing: border-box;
     cursor: pointer;
     margin-top: 0.6rem;
@@ -64,7 +64,7 @@
 }
 
 .exp:hover {
-    border: 2px solid var(--color-text);
+    border: 0.125rem solid var(--color-text);
     background-size: 0 100%;
 }
 
@@ -111,5 +111,14 @@
 
     .experience {
         height: 62rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .experience {
+        height: 52rem;
+        width: 25rem;
+        border: 2px solid cyan;
     }
 }
