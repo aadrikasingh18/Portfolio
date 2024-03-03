@@ -72,7 +72,8 @@
 }
 
 .hero-img {
-    width: 105%;
+    width: 21rem;
+    height: 21rem;
     z-index: 1;
     animation-name: floating;
     animation-duration: 5s;
@@ -117,12 +118,3 @@
     top: 28rem;
     left: 60rem;
 } */
-
-
-/* RESPONSIVENESS */
-
-@media screen and (max-width: 992px) {
-    .hero-img {
-        width: 70%;
-    }
-}

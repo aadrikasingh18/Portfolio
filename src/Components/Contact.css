@@ -1,63 +1,59 @@
 @import "../vars.css";
 
 .contact {
-    /* height: 150px; */
-    /* top: 2851px; */
-    background: rgba(25, 55, 109, 1);
-    height: 9rem;
-    top: 178rem;
+    /* background: rgba(25, 55, 109, 1); */
+    height: 5rem;
+    width: fit-content;
     display: flex;
     flex-direction: row;
     color: var(--color-text);
+    /* border: 8px solid rgba(255, 0, 98, 0.436); */
 }
 
 .contact-left {
     display: flex;
     justify-content: center;
-    width: 50%;
+    /* border: 8px solid rgba(89, 0, 255, 0.436); */
 }
 
 .contact-title {
-    /* font-size: 60px; */
-    font-size: 3.75rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 8px solid rgba(0, 255, 255, 0.436); */
 }
 
 .contact-right {
-    width: 50%;
+    /* width: 50%; */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 8px solid rgba(0, 255, 255, 0.436); */
 }
 
 .contact-icons {
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
+    /* border: 8px solid rgba(0, 255, 34, 0.436);    */
 }
 
 .contact-btn {
-    /* height: 75px; */
-    height: 4.6rem;
-    /* width: 75px; */
-    width: 4.6rem;
+    height: 3rem;
+    width: 3rem;
     background-color: #f1fcfb;
     border-radius: 50px;
     text-align: center;
-    /* margin: 10px; */
     margin: 0.625rem;
-    /* line-height: 93px; */
-    line-height: 5.8rem;
+    line-height: 3.8rem;
 }
 
 .contact-btn i {
-    /* font-size: 36px; */
-    font-size: 2.25rem;
+    font-size: 1.8rem;
     transition: all 0.3s linear;
-    margin-left: 0px;
+    /* margin-left: 0px; */
 }
 
 .contact-btn:hover i {
@@ -78,4 +74,14 @@
 
 .fa-whatsapp {
     color: green;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 992px) {
+
+    .contact-left {
+        display: none;
+    }
+
 }

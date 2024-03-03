@@ -101,10 +101,15 @@
     }
 
     .experience-img {
-        width: 55%;
-        z-index: 1;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .experience {
+        height: 62rem;
     }
 }

@@ -128,3 +128,10 @@
         margin-top: 1rem;
     }
 }
+
+@media screen and (max-width: 767px) {
+
+    .project {
+        height: 42rem;
+    }
+}
