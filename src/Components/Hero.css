@@ -119,6 +119,13 @@
     left: 60rem;
 } */
 
+@media screen and (max-width: 576px) {
+    .hero-img{
+        width: 18rem;
+        height: 18rem;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .hero-title {
         font-size: 3.25rem;

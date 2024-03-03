@@ -12,7 +12,7 @@ const Hero = () => {
       <Container className='hero-container'>
         <Row>
           {/* LEFT DIV*/}
-          <Col lg={{ span: 8, order: 1 }} sm={{ span: 12, order: 2 }} className='hero-content-left'>
+          <Col lg={{ span: 8, order: 1 }} xs={{ span: 12, order: 2 }} className='hero-content-left'>
             <h1 className='hero-title'>Hi! I'm Aadrika</h1>
             <p className="hero-description">I am a developer, proficient in technologies like HTML, CSS, JS, ReactJS, NodeJS, Express, MongoDB, PostgreSQL, C, Java, Git & GitHub. </p><br></br>
             <p className="hero-description-end">Mail me here !</p>
@@ -22,7 +22,7 @@ const Hero = () => {
           </Col>
 
           {/* RIGHT DIV */}
-          <Col lg={{ span: 4, order: 2 }}  sm={{ span: 12, order: 1 }} className='hero-content-right'>
+          <Col lg={{ span: 4, order: 2 }}  xs={{ span: 12, order: 1 }} className='hero-content-right'>
             <img src={heroPic} alt={"pic"} className='hero-img' />
           </Col>
         </Row>
