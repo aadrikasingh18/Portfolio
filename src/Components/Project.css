@@ -109,7 +109,6 @@
 }
 
 @media screen and (max-width: 992px) {
-
     .project {
         height: 38rem;
     }
@@ -130,18 +129,22 @@
 }
 
 @media screen and (max-width: 767px) {
-
     .project {
         height: 42rem;
     }
 }
 
 @media screen and (max-width: 576px) {
-
     .project {
         height: 48rem;
         width: 28rem;
         /* border: 2px solid cyan; */
-        
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .project {
+        height: 50rem;
+        width: 25rem;
     }
 }

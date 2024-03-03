@@ -122,3 +122,10 @@
         /* border: 2px solid cyan; */
     }
 }
+
+@media screen and (max-width: 450px) {
+    .experience {
+        height: 72rem;
+        width: 25rem;
+    }
+}
