@@ -135,3 +135,13 @@
         height: 42rem;
     }
 }
+
+@media screen and (max-width: 576px) {
+
+    .project {
+        height: 48rem;
+        width: 28rem;
+        /* border: 2px solid cyan; */
+        
+    }
+}

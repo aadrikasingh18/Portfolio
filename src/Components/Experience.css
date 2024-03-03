@@ -117,8 +117,8 @@
 @media screen and (max-width: 576px) {
 
     .experience {
-        height: 52rem;
-        width: 25rem;
-        border: 2px solid cyan;
+        height: 72rem;
+        width: 28rem;
+        /* border: 2px solid cyan; */
     }
 }
