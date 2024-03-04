@@ -24,35 +24,50 @@ const Project = () => {
                   <p className='pro-des'>• It has been crafted to empower writers in content creation and management, all while fostering seamless collaboration with fellow writers.
                     <br></br>
                     • Tech stack used are ReactJs, Tailwind CSS, Firebase, and Sentry.</p>
-                  <button type="button" className="btn btn-light" id="btn">LINK</button>
-                  <button type="button" className="btn btn-light" id="btn">GITHUB</button>
+                  {/* <button type="button" className="btn btn-light" id="btn">LINK</button>
+                  <button type="button" className="btn btn-light" id="btn">GITHUB</button> */}
+                  <a href="https://vewrite.vercel.app/">
+                    <button type="button" className="btn btn-light" id="btn">LINK</button>
+                  </a><a href="https://github.com/aadrikasingh18/C4-team-4" >
+                    <button type="button" className="btn btn-light" id="btn">GITHUB</button>
+                  </a>
                 </div>
               </li>
 
               <li>
                 <div className="pro">
                   <p className='pro-role'>
-                    TEXT TO SPEECH CONVERTER
+                    TEXT TO VOICE CONVERTER
                   </p>
                   <p className='pro-des'>• The goal is to enable users to input any text and obtain an audio output that represents the text naturally.
                     <br></br>
                     • Tech stack used are HTML, CSS, and JavaScript.</p>
-                  <button type="button" className="btn btn-light" id="btn">LINK</button>
-                  <button type="button" className="btn btn-light" id="btn">GITHUB</button>
+                  {/* <button type="button" className="btn btn-light" id="btn">LINK</button>
+                  <button type="button" className="btn btn-light" id="btn">GITHUB</button> */}
+                  <a href="https://text-to-voice-converterr.netlify.app/" >
+                    <button type="button" className="btn btn-light" id="btn">LINK</button>
+                  </a><a href="https://github.com/aadrikasingh18/Text-To-Voice-Converter/" >
+                    <button type="button" className="btn btn-light" id="btn">GITHUB</button>
+                  </a>
                 </div>
               </li>
 
               <li>
                 <div className="pro">
                   <p className='pro-role'>
-                    Frontend Developer, Big Data Center Of Excellence
+                    TEXTIFY : A TEXT MODIFIER
                   </p>
 
                   <p className='pro-des'>• A project that transforms text by adding or removing elements to improve clarity or convey a specific message.
                     <br></br>
                     • Tech stack used are HTML, CSS, and JavaScript.</p>
-                  <button type="button" className="btn btn-light" id="btn">LINK</button>
-                  <button type="button" className="btn btn-light" id="btn">GITHUB</button>
+                  {/* <button type="button" className="btn btn-light" id="btn">LINK</button> */}
+                  <a href="https://textify-text-modifier.netlify.app/" >
+                    <button type="button" className="btn btn-light" id="btn">LINK</button>
+                  </a>
+                  <a href="https://github.com/aadrikasingh18/Textify/" >
+                    <button type="button" className="btn btn-light" id="btn">GITHUB</button>
+                  </a>
                 </div>
               </li>
             </ul>
