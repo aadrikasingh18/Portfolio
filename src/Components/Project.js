@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 const Project = () => {
   return (
     <>
-      <Container className='project'>
+      <Container id="project" className='project'>
         <h2 className='project-heading'>
           PROJECTS
         </h2>

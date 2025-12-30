@@ -1,74 +1,40 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 export default function Navbar() {
+    const handleSmoothScroll = (e, targetId) => {
+        e.preventDefault();
+        const element = document.getElementById(targetId);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    };
+
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark">
-                <div className="container-fluid styleNavbar">
-                    <a className="navbar-brand styleTitleNav" href="/">PORTFOLIO</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse styleMenuNav" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 styleMenuItemsNav">
-                            <li className="nav-item">
-                                <Link to={'/about'} className="nav-link">ABOUT</Link>
-                                {/* <a href="/about" className="nav-link">ABOUT</a> */}
-                            </li>
-                            <li className="nav-item">
-                                <Link to={'/experience'} className="nav-link">EXPERIENCE</Link>
-                                {/* <a href="/experience" className="nav-link">EXPERIENCE</a> */}
-                            </li>
-                            <li className="nav-item">
-                                <Link to={'/project'} className="nav-link">PROJECT</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to={'/contact'} className="nav-link">CONTACT</Link>
-                            </li>
-                        </ul>
-                    </div>
+            <nav className="navbar navbar-expand-lg navbar-dark styleNavbar">
+
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+
+                <div className="collapse navbar-collapse styleTitleNav" id="navbarSupportedContent">
+                    <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <a href="#about" onClick={(e) => handleSmoothScroll(e, 'about')} className="nav-link">ABOUT</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#experience" onClick={(e) => handleSmoothScroll(e, 'experience')} className="nav-link">EXPERIENCE</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#project" onClick={(e) => handleSmoothScroll(e, 'project')} className="nav-link">PROJECT</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#contact" onClick={(e) => handleSmoothScroll(e, 'contact')} className="nav-link">CONTACT</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>
     )
 }
-
-// import React from 'react'
-// import './Navbar.css';
-// import { useState } from 'react'; // FOR HAMBURGER MENU
-// import { getImageUrl } from '../utils'
-
-// const Navbar = () => {
-//     const [menuOpen, setMenuOpen] = useState(false);
-//     return (
-//         <>
-//             <nav className="styleNavbar">
-//                 <a className="styleTitleNav" href="/">PORTFOLIO</a>
-//                 <div className="styleMenuNav">
-//                     <img className="styleMenuBtnNav"
-//                         src={menuOpen ? getImageUrl("nav/menuIcon.png") : getImageUrl("nav/menuIcon.png")} alt="menu-button"
-//                         onClick={() => setMenuOpen(!menuOpen)}
-//                     />
-//                     <ul className="styleMenuItemsNav">
-//                         <li>
-//                             <a href="#experience">ABOUT</a>
-//                         </li>
-//                         <li>
-//                             <a href="#experience">EXPERIENCE</a>
-//                         </li>
-//                         <li>
-//                             <a href="#projects">PROJECTS</a>
-//                         </li>
-//                         <li>
-//                             <a href="#contact">CONTACT</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </nav>
-//         </>
-//     )
-// }
-
-// export default Navbar

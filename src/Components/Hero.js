@@ -8,13 +8,13 @@ import Col from 'react-bootstrap/Col';
 const Hero = () => {
   return (
     <>
-    {/* REACT BOOTSTRAP DOCS */}
-      <Container className='hero-container'>
+      {/* REACT BOOTSTRAP DOCS */}
+      <Container id="about" className='hero-container'>
         <Row>
           {/* LEFT DIV*/}
           <Col lg={{ span: 8, order: 1 }} xs={{ span: 12, order: 2 }} className='hero-content-left'>
-            <h1 className='hero-title'>Hi! I'm Aadrika</h1>
-            <p className="hero-description">I am a developer, proficient in technologies like HTML, CSS, JS, ReactJS, NodeJS, Express, MongoDB, PostgreSQL, C, Java, Git & GitHub. </p><br></br>
+            <h1 className='hero-title'>Hi! I'm Aadrika Singh</h1>
+            <p className="hero-description">I am a developer, proficient in technologies like HTML, CSS, JavaScript, ReactJS, NodeJS, Express, MongoDB, PostgreSQL, C, Java, Git & GitHub. </p><br></br>
             <p className="hero-description-end">Mail me here !</p>
             <div className='hero-btn'>
               <a href="mailto:aadrikas04@gmail.com" className='hero-contactBtn'>CONTACT ME</a>
@@ -22,7 +22,7 @@ const Hero = () => {
           </Col>
 
           {/* RIGHT DIV */}
-          <Col lg={{ span: 4, order: 2 }}  xs={{ span: 12, order: 1 }} className='hero-content-right'>
+          <Col lg={{ span: 4, order: 2 }} xs={{ span: 12, order: 1 }} className='hero-content-right'>
             <img src={heroPic} alt={"pic"} className='hero-img' />
           </Col>
         </Row>

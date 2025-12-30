@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 const Experience = () => {
   return (
     <>
-      <Container className='experience'>
+      <Container id="experience" className='experience'>
         <h2 className='experience-heading'>
           EXPERIENCE
         </h2>

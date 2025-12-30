@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 const Contact = () => {
   return (
     <>
-      <Container className='contact'>
+      <Container id="contact" className='contact'>
         <Row>
           {/* LEFT DIV*/}
           <Col lg={{ span: 6, order: 1 }} sm={{ span: 12, order: 2 }} className='contact-left'>
