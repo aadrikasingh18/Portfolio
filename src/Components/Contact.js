@@ -2,6 +2,7 @@ import './Contact.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { SOCIAL_LINKS } from '../constants/constants';
 
 const Contact = () => {
   return (
@@ -18,19 +19,19 @@ const Contact = () => {
           <Col lg={{ span: 6, order: 2 }} sm={{ span: 12, order: 1 }} className='contact-right'>
             <div className="contact-icons">
 
-              <a href="https://www.linkedin.com/in/aadrika-singh-035219205/" target="_blank" rel="noreferrer" className="contact-btn">
+              <a href={SOCIAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer" className="contact-btn" aria-label="LinkedIn Profile">
                 <i className="fab fa-linkedin"></i>
               </a>
 
-              <a href="https://github.com/aadrikasingh18" target="_blank" rel="noreferrer" className="contact-btn">
+              <a href={SOCIAL_LINKS.github} target="_blank" rel="noopener noreferrer" className="contact-btn" aria-label="GitHub Profile">
                 <i className="fab fa-github"></i>
               </a>
 
-              <a href="https://wa.me/6388267640" target="_blank" rel="noreferrer" className="contact-btn">
+              <a href={SOCIAL_LINKS.whatsapp} target="_blank" rel="noopener noreferrer" className="contact-btn" aria-label="WhatsApp Contact">
                 <i className="fab fa-brands fa-whatsapp"></i>
               </a>
 
-              <a href="https://twitter.com/aadrika_singh__" target="_blank" rel="noreferrer" className="contact-btn">
+              <a href={SOCIAL_LINKS.twitter} target="_blank" rel="noopener noreferrer" className="contact-btn" aria-label="Twitter Profile">
                 <i className="fab fa-twitter"></i>
               </a>
 

@@ -95,30 +95,6 @@
     }
 }
 
-/* .hero-topBlur {
-    position: absolute;
-    filter: blur(100px);
-    border-radius: 764px;
-    z-index: 0;
-    background: rgba(25, 55, 109, 0.7);
-    width: 25rem;
-    height: 31.25rem;
-    top: -17rem;
-    left: -16rem;
-} */
-
-/* .hero-bottomBlur {
-    position: absolute;
-    border-radius: 700px;
-    background: rgba(25, 55, 109, 0.7);
-    filter: blur(100px);
-    z-index: 0;
-    width: 28rem;
-    height: 28rem;
-    top: 28rem;
-    left: 60rem;
-} */
-
 @media screen and (max-width: 576px) {
     .hero-img{
         width: 18rem;
