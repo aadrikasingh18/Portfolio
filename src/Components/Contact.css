@@ -79,9 +79,7 @@
 /* RESPONSIVENESS */
 
 @media screen and (max-width: 992px) {
-
     .contact-left {
         display: none;
     }
-
 }

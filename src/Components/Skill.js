@@ -1,18 +1,3 @@
-// import React from 'react'
-// import './Skill.css';
-
-// const Skill = () => {
-//     return (
-//         <div>
-//             {/* SKILL */}
-//         </div>
-//     )
-// }
-
-// export default Skill
-
-
-import React from "react";
 import './Skill.css';
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";

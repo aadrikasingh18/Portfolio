@@ -1,4 +1,3 @@
-import React from 'react'
 import './Project.css';
 import projectPic from '../images/project.jpg'
 import Container from 'react-bootstrap/Container';

@@ -5,9 +5,6 @@ import Experience from "./Components/Experience"
 import Project from "./Components/Project"
 // import Skill from "./Components/Skill"
 import Contact from "./Components/Contact"
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
 
 function App() {
   return (
@@ -23,19 +20,3 @@ function App() {
 }
 
 export default App;
-
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-
-// function ContainerExample() {
-//   return (
-//     <Container>
-//       <Row>
-//         <Col>1 of 1</Col>
-//       </Row>
-//     </Container>
-//   );
-// }
-
-// export default ContainerExample;

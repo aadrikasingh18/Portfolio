@@ -1,4 +1,3 @@
-import React from 'react'
 import './Hero.css';
 import heroPic from '../images/hero.png'
 import Container from 'react-bootstrap/Container';
